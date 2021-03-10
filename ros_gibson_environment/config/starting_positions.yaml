@@ -1,0 +1,785 @@
+matterport:
+  house1:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house10:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - -3.0
+  house11:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house12:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house13:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house14:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house15:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house16:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house17:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house18:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house19:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house2:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house20:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house21:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house22:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house23:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house24:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house25:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house26:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house27:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house28:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house29:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house3:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house30:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house31:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house32:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house33:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house34:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house35:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house36:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house37:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house38:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house39:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house4:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house40:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house41:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house42:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house43:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house44:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house45:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house46:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house47:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house48:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house49:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house5:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house50:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house51:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house52:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house53:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house54:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house55:
+    orientation:
+    - 0.0
+    - 0.0
+    - 1.0
+    position:
+    - 0.5
+    - 2.0
+    - 0.0
+  house56:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house57:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house58:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house59:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house6:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house60:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house61:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house62:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house63:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house64:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house65:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house66:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house67:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house68:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house69:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house7:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house70:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house71:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house72:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house73:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house74:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house75:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house76:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house77:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house78:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house79:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house8:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house80:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house81:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house82:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  house9:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+stanford:
+  area2:
+    orientation:
+    - 0.0
+    - 0.0
+    - 1.6
+    position:
+    - 10.0
+    - 10.0
+    - 0.0
+  area3:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  area4:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 5.0
+    - 7.0
+    - 0.0
+  area5:
+    orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+    position:
+    - 0.0
+    - 0.0
+    - 0.0
+  area6:
+    orientation:
+    - 0.0
+    - 0.0
+    - 3.14
+    position:
+    - 0.0
+    - 5.0
+    - 0.0
