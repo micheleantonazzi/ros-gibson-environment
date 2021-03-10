@@ -1,5 +1,5 @@
 # Package
-config/package_config.yaml
+ros_gibson_environment/config/package_config.yaml
 # ROS
 devel/
 logs/
