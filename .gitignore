@@ -1,3 +1,6 @@
+# Package
+config/package_config.yaml
+# ROS
 devel/
 logs/
 build/
