@@ -10,7 +10,7 @@
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     </node>
 
-    <node name="turtlebot_gibson_simulator" pkg="ros_gibson_environment" type="turtlebot_gibson_simulator.py" output="screen">
+    <node name="ros_gibson_environment_simulator" pkg="ros_gibson_environment" type="ros_gibson_environment_simulator.py" output="screen">
         <param name="env_dataset" value="matterport" />
         <param name="environment" value="house1" />
         <param name="resolution" value="256" />
@@ -29,7 +29,7 @@
     <node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager"/>
     <node pkg="nodelet" type="nodelet" name="cmd_vel_mux"
           args="load yocs_cmd_vel_mux/CmdVelMuxNodelet mobile_base_nodelet_manager">
-        <param name="yaml_cfg_file" value="$(find turtlebot_gibson)/config/mux_params.yaml" />
+        <param name="yaml_cfg_file" value="$(find ros_gibson_environment)/params/mux_params.yaml" />
         <remap from="cmd_vel_mux/output" to="mobile_base/commands/velocity"/>
     </node>
 </launch>

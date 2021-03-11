@@ -86,7 +86,7 @@ def callback_closure(resolution):
 
 
 if __name__ == '__main__':
-    rospy.init_node('turtlebot_gibson_simulator')
+    rospy.init_node('ros_gibson_environment_simulator')
 
     # Get parameters
     env_dataset = rospy.get_param(rospy.get_name() + '/env_dataset', default='matterport')
