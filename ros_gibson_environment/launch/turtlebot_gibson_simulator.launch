@@ -10,7 +10,7 @@
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     </node>
 
-    <node name="ros_gibson_environment_simulator" pkg="ros_gibson_environment" type="ros_gibson_environment_simulator.py" output="screen">
+    <node name="ros_gibson_environment_simulator" pkg="ros_gibson_environment" type="turtlebot_gibson_simulator.py" output="screen">
         <param name="env_dataset" value="matterport" />
         <param name="environment" value="house1" />
         <param name="resolution" value="256" />
