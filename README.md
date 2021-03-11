@@ -15,11 +15,9 @@ Finally, clone this repo in your catkin workspace and run ```catkin_make```.
 ## How it works
 
 To run Gibson and attack it to ros, you can use the launch files called ```<robot_name>_gibson_simulator.launch```.
-Using this file, it is possible to load any environment of any dataset customizing the parameters related to the nodes
-called ```<robot_name>_gibson_simulator.py```.
-These parameters are:
-* *env_dataset*: the dataset name ('matterport' or 'stanford')
-* *environment*: the name of the environment
+Using this file, it is possible to load any environment of any dataset. To do this, you simply
+assign the world's name to the *environment* parameter related to the nodes
+called ```<robot_name>_gibson_simulator.py```. These nodes automatically show the semantic information if the selected environment has them.
 
 **NB:** each environment has a particular starting position and orientation. These data are stored in 
 ```ros_gibson_environment/config/starting_positions.yaml```. I haven't set the correct positions for all environments, so if you use 
