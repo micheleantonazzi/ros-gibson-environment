@@ -1,5 +1,7 @@
 # Package
 ros_gibson_environment/config/package_config.yaml
+ros_gibson_environment/config/gibson_config_file.yaml
+.idea/libraries/ROS.xml
 # ROS
 devel/
 logs/
