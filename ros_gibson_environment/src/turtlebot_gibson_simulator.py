@@ -89,10 +89,6 @@ if __name__ == '__main__':
     rospy.init_node('ros_gibson_environment_simulator')
 
     # Get parameters
-    env_dataset = rospy.get_param(rospy.get_name() + '/env_dataset', default='matterport')
-    if env_dataset != STANFORD_DATASET and env_dataset != MATTERPORT_DATASET:
-        raise Exception('The dataset name must be stanford or matterport, please check its value')
-
     environment = rospy.get_param(rospy.get_name() + '/environment', default='house1')
 
     resolution = int(rospy.get_param(rospy.get_name() + '/resolution', default=256))
@@ -107,18 +103,33 @@ if __name__ == '__main__':
     with open(os.path.join(package_path, 'config', 'starting_positions.yaml'), mode='r') as starting_positions_file:
         starting_positions = yaml.load(starting_positions_file)
 
+    # Get environment data from starting_positions file
+    position = starting_positions[environment]['position']
+    orientation = starting_positions[environment]['orientation']
+    dataset = starting_positions[environment]['dataset']
+    has_semantics = starting_positions[environment]['semantics']
+
     # Create gibson config file based of dataset type and its environment
     gibson_config['model_id'] = environment
-    gibson_config['initial_pos'] = starting_positions[env_dataset][environment]['position']
-    gibson_config['initial_orn'] = starting_positions[env_dataset][environment]['orientation']
+    gibson_config['initial_pos'] = position
+    gibson_config['initial_orn'] = orientation
     gibson_config['resolution'] = resolution
 
-    if env_dataset == STANFORD_DATASET:
-        gibson_config['semantic_source'] = 1
-        gibson_config['semantic_color'] = 3
-    elif env_dataset == MATTERPORT_DATASET:
-        gibson_config['semantic_source'] = 2
-        gibson_config['semantic_color'] = 2
+    # Check if the environment has semantic data
+    if has_semantics:
+        gibson_config['output'] = ['nonviz_sensor', 'rgb_filled', 'depth', 'semantics']
+        gibson_config['ui_components'] = ['RGB_FILLED', 'DEPTH', 'SEMANTICS']
+        gibson_config['ui_num'] = 3
+        if dataset == STANFORD_DATASET:
+            gibson_config['semantic_source'] = 1
+            gibson_config['semantic_color'] = 3
+        elif dataset == STANFORD_DATASET:
+            gibson_config['semantic_source'] = 2
+            gibson_config['semantic_color'] = 2
+    else:
+        gibson_config['output'] = ['nonviz_sensor', 'rgb_filled', 'depth']
+        gibson_config['ui_components'] = ['RGB_FILLED', 'DEPTH']
+        gibson_config['ui_num'] = 2
 
     # Write gibson config parameter in a file
     gibson_config_file_path = os.path.join(package_path, 'config', 'gibson_config_file.yaml')

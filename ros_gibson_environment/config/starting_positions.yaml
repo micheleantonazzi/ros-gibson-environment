@@ -1,785 +1,7249 @@
-matterport:
-  house1:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house10:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - -3.0
-  house11:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house12:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house13:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house14:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house15:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house16:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house17:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house18:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house19:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house2:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house20:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house21:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house22:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house23:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house24:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house25:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house26:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house27:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house28:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house29:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house3:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house30:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house31:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house32:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house33:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house34:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house35:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house36:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house37:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house38:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house39:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house4:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house40:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house41:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house42:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house43:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house44:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house45:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house46:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house47:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house48:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house49:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house5:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house50:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house51:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house52:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house53:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house54:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house55:
-    orientation:
-    - 0.0
-    - 0.0
-    - 1.0
-    position:
-    - 0.5
-    - 2.0
-    - 0.0
-  house56:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house57:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house58:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house59:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house6:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house60:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house61:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house62:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house63:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house64:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house65:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house66:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house67:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house68:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house69:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house7:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house70:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house71:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house72:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house73:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house74:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house75:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house76:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house77:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house78:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house79:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house8:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house80:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house81:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house82:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  house9:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-stanford:
-  area2:
-    orientation:
-    - 0.0
-    - 0.0
-    - 1.6
-    position:
-    - 10.0
-    - 10.0
-    - 0.0
-  area3:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  area4:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 5.0
-    - 7.0
-    - 0.0
-  area5:
-    orientation:
-    - 0.0
-    - 0.0
-    - 0.0
-    position:
-    - 0.0
-    - 0.0
-    - 0.0
-  area6:
-    orientation:
-    - 0.0
-    - 0.0
-    - 3.14
-    position:
-    - 0.0
-    - 5.0
-    - 0.0
+Ackermanville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Adairsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Adrian:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Airport:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Akiak:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Albertville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Aldine:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Aldrich:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Alfred:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Allensville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Almena:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Almota:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Aloha:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Alstown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+American:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Anaheim:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ancor:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Andover:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Angiola:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Annawan:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Annona:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Anthoston:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Apache:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Applewold:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Arbutus:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Archer:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Arkansaw:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Arona:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Artois:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ashport:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Assinippi:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Athens:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Auburn:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Aulander:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Avonia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Azusa:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Badger:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ballantine:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ballou:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Baneberry:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Barahona:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Barboursville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Barranquitas:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bautista:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Beach:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Beechwood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bellemeade:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bellwood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Belpre:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Benevolence:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Benicia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bertram:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bethlehem:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bettendorf:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Biltmore:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Blackstone:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Blenheim:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bohemia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bolton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bonesteel:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bonfield:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bonnie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Booth:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bountiful:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bowlus:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bowmore:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Branford:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Braxton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bremerton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Brentsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Brevort:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Brewton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Brinnon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Broadwell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Broseley:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Brown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Browntown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Burien:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Bushong:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Byers:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cabin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Calavo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Callicoon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Calmar:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cantwell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Capistrano:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Carneiro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Carpendale:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Carpio:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Caruthers:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cashel:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cason:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Castor:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Castroville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cauthron:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cayuse:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cebolla:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Channel:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Checotah:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Chesaning:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Chesterbrook:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Chilhowie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Chiloquin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Chireno:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Chrisney:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Churchton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Circleville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cisne:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Clairton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Clarkridge:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Clive:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cobalt:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cochranton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Codell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Coeburn:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Coffeen:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cohoes:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cokeville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Colebrook:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Collierville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Connellsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Connoquenessing:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Convoy:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cooperstown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Copemish:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Corder:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cornville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Coronado:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Corozal:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cosmos:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cottonport:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Couderay:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Country:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cousins:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Crandon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Creede:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Crookston:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Crugers:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Culbertson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cullison:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Cutlerville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Dalcour:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Dansville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Darden:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Darnestown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Darrtown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Dauberville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Deatsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Dedham:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Deemston:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Delton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Denmark:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Destin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Divide:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Donaldson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Dryville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Duarte:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Duluth:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Dunmor:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Eagan:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Eagerville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Eastville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Edgemere:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Edson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ellaville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Elmira:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Elton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Emmaus:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Espanola:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Eudora:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Euharlee:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Everton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ewansville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ewell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Experiment:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Fedora:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Fishersville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Fitchburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Fleming:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Fonda:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Forkland:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Foyil:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Frankfort:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Frankton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Fredericksburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Freedom:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Frierson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Frontenac:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Funkstown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Galatia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gasburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gastonia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gaylord:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+German:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Germfask:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gilbert:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gladstone:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Glassboro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Glenmoor:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Globe:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gloria:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gluck:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gluek:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Goffs:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Goodfield:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Goodview:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Goodwine:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Goodyear:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gough:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Grace:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Graceville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gracey:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Grainola:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Grangeville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Grantsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Grassy:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gratz:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Gravelly:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Greigsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Grigston:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Haaswood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hacienda:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hainesburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Halfway:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hallettsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hambleton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hammon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hanson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Harkeyville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Harrellsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hartline:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hatfield:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Haxtun:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Haymarket:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Helix:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Helton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hendrix:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hennepin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hercules:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Herricks:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Highspire:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hildebran:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hillsdale:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hindsboro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hitchland:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hiteman:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hobson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Holcut:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hometown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hominy:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hordville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hornsby:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hortense:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Howie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Hurley:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Idanha:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ihlen:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Imbery:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Inkom:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Irvine:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Islandton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Jacobus:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Jenners:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Jennie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Judith:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kangley:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kankakee:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kathryn:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Keiser:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kemblesville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kendall:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kerrtown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kettle:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kevin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Keweenaw:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kihei:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kildare:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kinde:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kingdom:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kingfisher:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kinney:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kirksville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kirwin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Klickitat:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kobuk:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kopperl:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kremlin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Kronborg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lacon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ladue:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lajas:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lakeville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Landing:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lathrup:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Laupahoehoe:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Laytonsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Leavittsburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Leilani:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lenoir:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Leonardo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lessley:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Liddieville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lincolnwood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lindberg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lindenwood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lindsborg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lineville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lluveras:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Losantville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lovilia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lucan:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ludlowville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lynchburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Lynxville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maben:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+MacArthur:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Macedon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Macksville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Macland:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maguayo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mahtomedi:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maida:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maiden:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maitland:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mammoth:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Manassas:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maricopa:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Markleeville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Marksville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Marland:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Marstons:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Martinville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maryhill:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mashulaville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Matoaca:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maugansville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Maunawili:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mayesville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mazomanie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+McCloud:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+McClure:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+McDade:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+McEwen:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+McKeesport:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+McNary:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Melstone:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mentasta:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mentmore:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Merchantville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Merlin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Merom:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mesic:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Micanopy:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Michiana:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mifflinburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mifflintown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Milaca:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Milford:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Millbury:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Moark:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Moberly:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mobridge:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Model:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mogadore:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mogote:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Monson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Monticello:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Montreal:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Moonachie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Morris:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mosinee:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mosquito:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Muleshoe:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Mullica:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Munsons:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Murchison:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Musicks:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Natural:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Neibert:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Nemacolin:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Neshkoro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Newcomb:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Newfields:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Nicut:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Nimmons:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Noonday:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Northgate:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Norvelt:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Noxapater:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Nuevo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ogilvie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ohoopee:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Okabena:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Onaga:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ooltewah:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ophir:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Orangeburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Orason:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Oriole:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ossipee:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ovalo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Oyens:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pablo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Paige:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pamelia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Parole:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pasatiempo:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Peacock:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pearce:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Peconic:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Peden:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pettigrew:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pinesdale:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pittsburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Placida:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pleasant:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Plessis:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Plumerville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pocasset:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pocopson:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Poipu:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Pomaria:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Portal:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Portola:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Potosi:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Potterville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Poyen:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Purple:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Quantico:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rabbit:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ranchester:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rancocas:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Random:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Readsboro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Redbank:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Reserve:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Retsof:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Reyno:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ribera:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Roane:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rockport:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Roeville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rogue:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rosenberg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rosser:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rough:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Roxboro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Ruckersville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Rutherford:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sagerton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Samuels:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sanctuary:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sands:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sarcoxie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sargents:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sasakwa:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sawpit:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Scandinavia:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Schiller:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Schoolcraft:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Scioto:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Scottsmoor:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Seatonville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Seeley:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Seiling:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Seward:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sharon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Shauck:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Shelbiana:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Shelbyville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Shellsburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sherrill:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Shingler:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Shumway:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Silas:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Silerton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Silva:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Siren:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sisters:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Smoketown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sodaville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Soldier:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sontag:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Southfield:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Spencerville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Spotswood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Spread:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Springerville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Springhill:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stanleyville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Starks:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stigler:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stilwell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stockertown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stockman:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stockwell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Stokes:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sugarville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sultan:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sumas:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sundown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sunshine:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Superior:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sussex:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Sweatman:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Swisshome:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Swormville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tallmadge:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tansboro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tariffville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Terrell:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Texasville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Thrall:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tilghmanton:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tillman:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Timberon:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tippecanoe:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tokeland:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tolstoy:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tomales:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tomkins:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Torrington:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Touhy:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tradewinds:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Trail:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Traver:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tyler:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Tysons:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Umpqua:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Uncertain:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Upham:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Uvalda:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Vacherie:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Vails:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Victorville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Voorhees:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Waimea:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wainscott:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Waipahu:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wakeman:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Waldenburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wando:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wappingers:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Warrenville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wattsville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Waucousta:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Waukeenah:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Webster:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Weleetka:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wells:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wesley:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Westerville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Westfield:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Whiteriver:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Whitethorn:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wiconisco:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wilbraham:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wilkesboro:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wilkinsburg:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Willow:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wilseyville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Windhorst:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Winfield:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Winooski:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Winthrop:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Woodbine:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Woonsocket:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wyatt:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Wyldwood:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Yadkinville:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Yankeetown:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+Yscloskey:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: false
+area2:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 1.6
+  position:
+  - 10.0
+  - 10.0
+  - 0.0
+  semantics: true
+area3:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+area4:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 5.0
+  - 7.0
+  - 0.0
+  semantics: true
+area5:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+area6:
+  dataset: stanford
+  orientation:
+  - 0.0
+  - 0.0
+  - 3.14
+  position:
+  - 0.0
+  - 5.0
+  - 0.0
+  semantics: true
+house1:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house10:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - -3.0
+  semantics: true
+house11:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house12:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house13:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house14:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house15:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house16:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house17:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house18:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house19:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house2:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house20:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house21:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house22:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house23:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house24:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house25:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house26:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house27:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house28:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house29:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house3:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house30:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house31:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house32:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house33:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house34:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house35:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house36:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house37:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house38:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house39:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house4:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house40:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house41:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house42:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house43:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house44:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house45:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house46:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house47:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house48:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house49:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house5:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house50:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house51:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house52:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house53:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house54:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house55:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 1.0
+  position:
+  - 0.5
+  - 2.0
+  - 0.0
+  semantics: true
+house56:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house57:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house58:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house59:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house6:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house60:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house61:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house62:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house63:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house64:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house65:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house66:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house67:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house68:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house69:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house7:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house70:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house71:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house72:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house73:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house74:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house75:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house76:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house77:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house78:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house79:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house8:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house80:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house81:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house82:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
+house9:
+  dataset: matterport
+  orientation:
+  - 0.0
+  - 0.0
+  - 0.0
+  position:
+  - 0.0
+  - 0.0
+  - 0.0
+  semantics: true
