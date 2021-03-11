@@ -1,7 +1,6 @@
 #!/usr/bin/python
 import yaml
 
-from doors_dataset.sample import Sample
 from gibson.envs.mobile_robots_env import TurtlebotNavigateEnv
 import os
 import rospy
@@ -15,6 +14,8 @@ from cv_bridge import CvBridge
 
 import tf
 
+MATTERPORT_DATASET = 'matterport'
+STANFORD_DATASET = 'stanford'
 
 def callback(data):
     global cmdx, cmdy
@@ -89,7 +90,7 @@ if __name__ == '__main__':
 
     # Get parameters
     env_dataset = rospy.get_param(rospy.get_name() + '/env_dataset', default='matterport')
-    if env_dataset != Sample.STANFORD_ENV_DATASET and env_dataset != Sample.MATTERPORT_ENV_DATASET:
+    if env_dataset != STANFORD_DATASET and env_dataset != MATTERPORT_DATASET:
         raise Exception('The dataset name must be stanford or matterport, please check its value')
 
     environment = rospy.get_param(rospy.get_name() + '/environment', default='house1')
@@ -98,12 +99,12 @@ if __name__ == '__main__':
 
     # Load gibson config parameter
     rospack = rospkg.RosPack()
-    package_path = rospack.get_path('turtlebot_gibson')
+    package_path = rospack.get_path('ros_gibson_environment')
     with open(os.path.join(package_path, 'config', 'package_config.yaml'), mode='r') as config_file:
         gibson_config = yaml.load(config_file)['gibson_config']
 
     # Load starting positions
-    with open(os.path.join(package_path, 'utilities', 'starting_positions.yaml'), mode='r') as starting_positions_file:
+    with open(os.path.join(package_path, 'config', 'starting_positions.yaml'), mode='r') as starting_positions_file:
         starting_positions = yaml.load(starting_positions_file)
 
     # Create gibson config file based of dataset type and its environment
@@ -112,10 +113,10 @@ if __name__ == '__main__':
     gibson_config['initial_orn'] = starting_positions[env_dataset][environment]['orientation']
     gibson_config['resolution'] = resolution
 
-    if env_dataset == Sample.STANFORD_ENV_DATASET:
+    if env_dataset == STANFORD_DATASET:
         gibson_config['semantic_source'] = 1
         gibson_config['semantic_color'] = 3
-    elif env_dataset == Sample.MATTERPORT_ENV_DATASET:
+    elif env_dataset == MATTERPORT_DATASET:
         gibson_config['semantic_source'] = 2
         gibson_config['semantic_color'] = 2
 
