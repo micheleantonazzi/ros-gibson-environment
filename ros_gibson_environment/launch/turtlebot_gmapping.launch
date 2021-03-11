@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+        <param name="base_frame" value="base_link"/>
+        <param name="map_frame" value="map" />
+        <param name="odom_frame" value="odom"/>
+
+        <rosparam file="$(find turtlebot_gibson)/config/gmapping_params.yaml" command="load"/>
+    </node>
+</launch>

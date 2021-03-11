@@ -1,0 +1,6 @@
+<launch>
+    <include file="simulator.launch" />
+    <include file="depthimage_to_laserscan.launch" />
+    <include file="gmapping.launch" />
+    <include file="move_base.launch" />
+</launch>

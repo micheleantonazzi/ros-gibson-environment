@@ -1,0 +1,36 @@
+<launch>
+
+    <!-- Velocity smoother -->
+    <node pkg="nodelet" type="nodelet" name="navigation_velocity_smoother" args="load yocs_velocity_smoother/VelocitySmootherNodelet mobile_base_nodelet_manager">
+        <rosparam file="$(find turtlebot_gibson)/config/velocity_smoother_params.yaml" command="load"/>
+        <remap from="navigation_velocity_smoother/smooth_cmd_vel" to="cmd_vel_mux/input/navi"/>
+        <remap from="navigation_velocity_smoother/odometry" to="odom"/>
+        <remap from="navigation_velocity_smoother/robot_cmd_vel" to="mobile_base/commands/velocity"/>
+    </node>
+
+    <arg name="base_frame_id" default="base_link"/>
+    <arg name="global_frame_id" default="map"/>
+    <arg name="odom_topic" default="odom"/>
+    <arg name="laser_topic" default="scan"/>
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <remap from="cmd_vel" to="navigation_velocity_smoother/raw_cmd_vel"/>
+        <remap from="odom" to="odom"/>
+        <remap from="scan" to="scan"/>
+
+        <param name="global_costmap/global_frame" value="map"/>
+        <param name="global_costmap/robot_base_frame" value="base_link"/>
+        <param name="local_costmap/global_frame" value="odom"/>
+        <param name="local_costmap/robot_base_frame" value="base_link"/>
+        <param name="DWAPlannerROS/global_frame_id" value="odom"/>
+
+        <rosparam file="$(find turtlebot_gibson)/config/costmap_common_params.yaml" command="load" ns="global_costmap"/>
+        <rosparam file="$(find turtlebot_gibson)/config/costmap_common_params.yaml" command="load" ns="local_costmap"/>
+        <rosparam file="$(find turtlebot_gibson)/config/local_costmap_params.yaml" command="load"/>
+        <rosparam file="$(find turtlebot_gibson)/config/global_costmap_params.yaml" command="load"/>
+        <rosparam file="$(find turtlebot_gibson)/config/dwa_local_planner_params.yaml" command="load"/>
+        <rosparam file="$(find turtlebot_gibson)/config/move_base_params.yaml" command="load"/>
+        <rosparam file="$(find turtlebot_gibson)/config/navfn_global_planner_params.yaml" command="load"/>
+
+    </node>
+</launch>
