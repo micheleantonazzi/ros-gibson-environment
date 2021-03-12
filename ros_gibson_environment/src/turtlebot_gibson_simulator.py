@@ -23,17 +23,15 @@ def callback(data):
     cmdy = data.linear.x/10.0 + data.angular.z / 50.0
 
 
-def callback_closure(resolution):
+def callback_closure(resolution, has_semantics):
     def callback_step(data):
         global cmdx, cmdy, bridge
         obs, _, _, _ = env.step([cmdx, cmdy])
         rgb = obs['rgb_filled']
         depth = obs['depth'].astype(np.float32)
-        semantics = obs['semantics']
         depth[depth > 10] = 10
         #depth[depth < 0.45] = np.nan
         rgb_image_message = bridge.cv2_to_imgmsg(rgb, encoding='rgb8')
-        semantic_image_message = bridge.cv2_to_imgmsg(semantics.astype(np.uint8), encoding='rgb8')
         depth_raw_image = (obs["depth"] * 1000).astype(np.uint16)
         depth_raw_message = bridge.cv2_to_imgmsg(depth_raw_image, encoding='passthrough')
         depth_message = bridge.cv2_to_imgmsg(depth, encoding='passthrough')
@@ -41,16 +39,13 @@ def callback_closure(resolution):
         now = rospy.Time.now()
 
         rgb_image_message.header.stamp = now
-        semantic_image_message.header.stamp = now
         depth_message.header.stamp = now
         depth_raw_message.header.stamp = now
         rgb_image_message.header.frame_id='camera_depth_optical_frame'
-        semantic_image_message.header.frame_id='camera_depth_optical_frame'
         depth_message.header.frame_id='camera_depth_optical_frame'
         depth_raw_message.header.frame_id='camera_depth_optical_frame'
 
         image_pub.publish(rgb_image_message)
-        semantics_pub.publish(semantic_image_message)
         depth_pub.publish(depth_message)
         depth_raw_pub.publish(depth_raw_message)
         msg = CameraInfo(height=resolution, width=resolution, distortion_model="plumb_bob", D=[0.0, 0.0, 0.0, 0.0, 0.0],
@@ -61,7 +56,15 @@ def callback_closure(resolution):
         msg.header.frame_id="camera_depth_optical_frame"
         camera_info_pub.publish(msg)
 
-        # odometry
+        # Publish semantic image if it is available
+        if has_semantics:
+            semantics = obs['semantics']
+            semantic_image_message = bridge.cv2_to_imgmsg(semantics.astype(np.uint8), encoding='rgb8')
+            semantic_image_message.header.stamp = now
+            semantic_image_message.header.frame_id='camera_depth_optical_frame'
+            semantics_pub.publish(semantic_image_message)
+
+        # Odometry
         odom = env.get_odom()
         br.sendTransform((odom[0][0], odom[0][1], 0),
                          tf.transformations.quaternion_from_euler(0, 0, odom[-1][-1]),
@@ -160,7 +163,7 @@ if __name__ == '__main__':
                      'odom')
 
     rospy.Subscriber('/mobile_base/commands/velocity', Twist, callback)
-    rospy.Subscriber('/gibson_ros/sim_clock', Int64, callback_closure(resolution))
+    rospy.Subscriber('/gibson_ros/sim_clock', Int64, callback_closure(resolution, has_semantics))
 
     rospy.spin()
 
