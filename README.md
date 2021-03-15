@@ -1,23 +1,50 @@
 # Ros Gibson Environment
 
-This is a ros package to use [Gibson](https://github.com/StanfordVL/GibsonEnv) 
-environment as a simulation tool for robotics applications. 
-In particular, this package correctly sets Gibson environment and connect it to ros. In addition, this package implements the navigation stacks for the Turtlebot 2 and the Husky robots.
+This is a ros package to use [Gibson](https://github.com/StanfordVL/GibsonEnv) environment as a simulation tool for robotics applications. 
+In particular, this package correctly sets Gibson environment and connect it to ros. In addition, it implements the navigation stacks for Turtlebot 2 and Husky robots.
 
 ## Package configuration
 
-Before use *ros_gibson_environment*, please install Gibson, building it from source.
-Follow the instruction [here](https://github.com/StanfordVL/GibsonEnv). 
-After that, download the datasets containing the environments to virtualize.
-You can find all links and instructions [here](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md).
-Finally, clone this repo in your catkin workspace and run ```catkin_make```.
+To use this package, please follow the instruction below:
+
+* Install ros (robot operating system) on your system
+
+* Install all Turtlebot 2 packages. To do this, clone in your catkin workspace the following repositories and the run ```catkin_make```
+
+  ```bash
+  git clone https://github.com/turtlebot/turtlebot.git
+  git clone https://github.com/turtlebot/turtlebot_apps.git
+  git clone https://github.com/turtlebot/turtlebot_msgs.git
+  git clone https://github.com/yujinrobot/kobuki.git
+  git clone https://github.com/yujinrobot/kobuki_msgs.git
+  ```
+  
+* Download and install Gibson environment from source, following the instruction reported [here](https://github.com/StanfordVL/GibsonEnv). Remember to install Gibson using python 2.7, which is the only one compatible with ros melodic
+  Before use *ros_gibson_environment*, please install Gibson, building it from source. Gibson has some issues, you can fix them 
+  using the following tips:
+  * To compile Gibson, go to ```GibsonEnv/gibson/core/channels/CMakeLists.txt``` and add ```add_definitions(-D GLM_ENABLE_EXPERIMENTAL)```
+  * Make sure that the version of pygame is 1.9.6
+  * To run Gibson install scipy 1.0.0 using the command ```pip install scipy==1.0.0```
+  
+  **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository
+  
+* The simulated Turtlebot model has been modified, increasing the Kinect height. To do this inside Gibson, open the file ```GibsonEnv/gibson/assets/models/turtlebot/turtlebot.urdf``` and search the following tags.
+
+  ```xml
+  <joint name="camera_rgb_joint" type="fixed">    
+  	<origin rpy="0 0 0" xyz="-0.087 -0.0125 0.287"/>
+      <parent link="base_link"/>
+      <child link="camera_rgb_frame"/>
+  </joint>
+  ```
+
+* Download the datasets containing the environments to virtualize using Gibson. You can find all links and instructions [here](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md).
+* Finally, clone this repo in your catkin workspace and run ```catkin_make```.
 
 ## How it works
 
-To run Gibson and attack it to ros, you can use the launch files called ```<robot_name>_gibson_simulator.launch```.
-Using this file, it is possible to load any environment of any dataset. To do this, you simply
-assign the world's name to the *environment* parameter related to the nodes
-called ```<robot_name>_gibson_simulator.py```. These nodes automatically show the semantic information if the selected environment has them.
+To run Gibson and attack it to ros, you can use the launch files called ```<robot_name>_gibson_simulator.launch```. Using this file, it is possible to load any environment of any dataset. To do this, you simply assign the world's name to the *environment* parameter related to the nodes called ```<robot_name>_gibson_simulator.py```. These nodes starts the Gibson simulation and conncet it to ros. In addition, they automatically show the semantic information if the selected environment has them. The urdf of the simulated robots are contained inside ```robot_models``` folder. These urdf file must be equal than those used by Gibson, otherwise modify one fo them.
+
 
 **NB:** each environment has a particular starting position and orientation. These data are stored in 
 ```ros_gibson_environment/config/starting_positions.yaml```. I haven't set the correct positions for all environments, so if you use 
