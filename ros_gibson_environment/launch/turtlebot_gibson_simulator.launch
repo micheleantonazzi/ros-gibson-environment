@@ -5,7 +5,7 @@
     <param name="robot/type" value="turtlebot"/>
 
 
-    <param name="robot_description" command="cat $(find gibson-ros)/turtlebot/turtlebot.urdf"/>
+    <param name="robot_description" command="cat $(find ros_gibson_environment)/robot_models/turtlebot.urdf"/>
 
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     </node>
@@ -15,7 +15,7 @@
         <param name="resolution" value="256" />
     </node>
 
-    <node name="gibson_clock" pkg="gibson-ros" type="simulation_clock.py">
+    <node name="gibson_clock" pkg="ros_gibson_environment" type="simulation_clock.py">
     </node>
 
     <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
