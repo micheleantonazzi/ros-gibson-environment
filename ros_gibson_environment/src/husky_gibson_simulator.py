@@ -18,15 +18,16 @@ MATTERPORT_DATASET = 'matterport'
 STANFORD_DATASET = 'stanford'
 
 def callback(data):
-    global cmdx, cmdy
-    cmdx = data.linear.x/10.0 - data.angular.z / 50.0
-    cmdy = data.linear.x/10.0 + data.angular.z / 50.0
-
+    global front_left, front_right, rear_left, rear_right
+    front_left = data.linear.x/10.0 - data.angular.z / 50.0
+    rear_left = data.linear.x/10.0 - data.angular.z / 50.0
+    front_right = data.linear.x/10.0 + data.angular.z / 50.0
+    rear_right = data.linear.x/10.0 + data.angular.z / 50.0
 
 def callback_closure(resolution, has_semantics):
     def callback_step(data):
-        global cmdx, cmdy, bridge
-        obs, _, _, _ = env.step([cmdx, cmdy, 0.0, 0.0])
+        global front_left, front_right, rear_left, rear_right, bridge
+        obs, _, _, _ = env.step([front_left, front_right, rear_left, rear_right])
         rgb = obs['rgb_filled']
         depth = obs['depth'].astype(np.float32)
         depth[depth > 10] = 10
@@ -41,9 +42,9 @@ def callback_closure(resolution, has_semantics):
         rgb_image_message.header.stamp = now
         depth_message.header.stamp = now
         depth_raw_message.header.stamp = now
-        rgb_image_message.header.frame_id='camera_depth_optical_frame'
-        depth_message.header.frame_id='camera_depth_optical_frame'
-        depth_raw_message.header.frame_id='camera_depth_optical_frame'
+        rgb_image_message.header.frame_id='eyes'
+        depth_message.header.frame_id='eyes'
+        depth_raw_message.header.frame_id='eyes'
 
         image_pub.publish(rgb_image_message)
         depth_pub.publish(depth_message)
@@ -53,7 +54,7 @@ def callback_closure(resolution, has_semantics):
                          R=[1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0],
                          P=[128, 0.0, 128.5, -0.0, 0.0, 128, 128.5, 0.0, 0.0, 0.0, 1.0, 0.0])
         msg.header.stamp = now
-        msg.header.frame_id="camera_depth_optical_frame"
+        msg.header.frame_id="eyes"
         camera_info_pub.publish(msg)
 
         # Publish semantic image if it is available
@@ -61,7 +62,7 @@ def callback_closure(resolution, has_semantics):
             semantics = obs['semantics']
             semantic_image_message = bridge.cv2_to_imgmsg(semantics.astype(np.uint8), encoding='rgb8')
             semantic_image_message.header.stamp = now
-            semantic_image_message.header.frame_id='camera_depth_optical_frame'
+            semantic_image_message.header.frame_id='eyes'
             semantics_pub.publish(semantic_image_message)
 
         # Odometry
@@ -80,8 +81,8 @@ def callback_closure(resolution, has_semantics):
         odom_msg.pose.pose.position.y = odom[0][1]
         odom_msg.pose.pose.orientation.x, odom_msg.pose.pose.orientation.y, odom_msg.pose.pose.orientation.z, \
         odom_msg.pose.pose.orientation.w = tf.transformations.quaternion_from_euler(0, 0, odom[-1][-1])
-        odom_msg.twist.twist.linear.x = (cmdx + cmdy) * 5
-        odom_msg.twist.twist.angular.z = (cmdy - cmdx) * 25
+        odom_msg.twist.twist.linear.x = (front_right + front_left) * 5
+        odom_msg.twist.twist.angular.z = (front_left - front_right) * 25
 
         odom_pub.publish(odom_msg)
 
@@ -140,8 +141,10 @@ if __name__ == '__main__':
     with open(gibson_config_file_path, mode='w') as gibson_config_file:
         yaml.dump(gibson_config, gibson_config_file, default_flow_style=False)
 
-    cmdx = 0.0
-    cmdy = 0.0
+    front_left = 0.0
+    front_right = 0.0
+    rear_left = 0.0
+    rear_right = 0.0
     image_pub = rospy.Publisher('/gibson_ros/camera/rgb/image', Image, queue_size=10)
     depth_pub = rospy.Publisher('/gibson_ros/camera/depth/image', Image, queue_size=10)
     depth_raw_pub = rospy.Publisher('/gibson_ros/camera/depth/image_raw', Image, queue_size=10)
@@ -163,7 +166,7 @@ if __name__ == '__main__':
                      'base_link',
                      'odom')
 
-    rospy.Subscriber('/mobile_base/commands/velocity', Twist, callback)
+    rospy.Subscriber('/husky_velocity_controller/cmd_vel', Twist, callback)
     rospy.Subscriber('/gibson_ros/sim_clock', Int64, callback_closure(resolution, has_semantics))
 
     rospy.spin()

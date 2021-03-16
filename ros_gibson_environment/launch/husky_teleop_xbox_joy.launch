@@ -1,0 +1,8 @@
+<launch>
+    <arg name="joy_dev" default="$(optenv HUSKY_JOY_DEVICE /dev/input/js0)" />
+    <rosparam command="load" file="$(find husky_control)/config/teleop_logitech.yaml" />
+    <param name="joy_node/dev" value="$(arg joy_dev)" />
+    <node pkg="joy" type="joy_node" name="joy_node" />
+
+    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy"/>
+</launch>

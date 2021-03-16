@@ -1,0 +1,36 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="point_cloud_2_nodelet_manager" args="manager" />
+
+    <node pkg="nodelet" type="nodelet" name="nodelet_point_cloud_2"
+          args="load depth_image_proc/point_cloud_xyz point_cloud_2_nodelet_manager">
+        <remap from="camera_info" to="/gibson_ros/camera/depth/camera_info"/>
+        <remap from="image_rect" to="/gibson_ros/camera/depth/image_raw"/>
+        <remap from="points" to="/gibson_ros/camera/depth/point_cloud"/>
+    </node>
+
+    <node pkg="nodelet" type="nodelet" name="camera_pointcloud_to_laserscan" args="load pointcloud_to_laserscan/pointcloud_to_laserscan_nodelet point_cloud_2_nodelet_manager">
+
+        <remap from="cloud_in" to="/gibson_ros/camera/depth/point_cloud"/>
+        <remap from="scan" to="scan"/>
+        <param name="target_frame" value="base_link" />                # Leave "" to output scan in pointcloud frame "$(arg camera)_link"
+        <rosparam>
+            transform_tolerance: 0.01
+            min_height: 0.10
+            max_height: 1.05
+
+            angle_min: -1.5708              # -M_PI/2
+            angle_max: 1.5708               # M_PI/2
+            angle_increment: 0.0087         # M_PI/360.0
+            scan_time: 0.3333
+            range_min: 0.03
+            range_max: 10.0
+            use_inf: true
+
+            # Concurrency level, affects number of pointclouds queued for processing, thread number governed by nodelet manager
+            # 0 : Detect number of cores
+            # 1 : Single threaded
+            # 2->inf : Parallelism level
+            concurrency_level: 1
+        </rosparam>
+    </node>
+</launch>

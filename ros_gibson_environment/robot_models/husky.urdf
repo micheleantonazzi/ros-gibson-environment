@@ -136,7 +136,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <joint name="eyes_joint" type="fixed">
     <!-- camera is located at front bar -->
     <!-- Default orientation (rpy="0 0 0"): looking at -z with y as up -->
-    <origin rpy="1.57 0 -1.57" xyz="0.4 0 1.00"/>
+    <origin rpy="-1.57 0 -1.57" xyz="0.4 0 1.00"/>
     <parent link="base_link"/>
     <child link="eyes"/>
   </joint>
@@ -150,7 +150,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <stiffness value="30000"/>
       <damping value="1000"/>
     </contact>
-    
+
     <inertial>
       <mass value="2.637"/>
       <origin xyz="0 0 0"/>
@@ -201,7 +201,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <stiffness value="30000"/>
       <damping value="1000"/>
     </contact>
-    
+
     <inertial>
       <mass value="2.637"/>
       <origin xyz="0 0 0"/>
@@ -252,7 +252,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <stiffness value="30000"/>
       <damping value="1000"/>
     </contact>
-    
+
     <inertial>
       <mass value="2.637"/>
       <origin xyz="0 0 0"/>
@@ -303,7 +303,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <stiffness value="30000"/>
       <damping value="1000"/>
     </contact>
-    
+
     <inertial>
       <mass value="2.637"/>
       <origin xyz="0 0 0"/>

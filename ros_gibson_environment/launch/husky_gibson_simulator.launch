@@ -22,12 +22,14 @@
     </node>
 
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ros_gibson_environment)/params/rviz_gmapping.rviz" />
-    <!--
-        <node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager"/>
-        <node pkg="nodelet" type="nodelet" name="cmd_vel_mux"
-              args="load yocs_cmd_vel_mux/CmdVelMuxNodelet mobile_base_nodelet_manager">
-            <param name="yaml_cfg_file" value="$(find ros_gibson_environment)/params/mux_params.yaml" />
-            <remap from="cmd_vel_mux/output" to="mobile_base/commands/velocity"/>
-        </node>
-        -->
+
+    <!-- Load controller configuration -->
+    <rosparam command="load" file="$(find husky_control)/config/control.yaml" />
+
+    <!-- Spawn controllers -->
+    <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server" output="screen"/>
+    <node pkg="twist_mux" type="twist_mux" name="twist_mux">
+        <rosparam command="load" file="$(find husky_control)/config/twist_mux.yaml" />
+        <remap from="cmd_vel_out" to="husky_velocity_controller/cmd_vel"/>
+    </node>
 </launch>
