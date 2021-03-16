@@ -66,7 +66,7 @@ def callback_closure(resolution, has_semantics):
             semantics_pub.publish(semantic_image_message)
 
         # Odometry
-        odom = env.get_odom()
+        odom = np.array(env.robot.body_xyz) - np.array(env.config["initial_pos"]), np.array(env.robot.body_rpy)
         br.sendTransform((odom[0][0], odom[0][1], 0),
                          tf.transformations.quaternion_from_euler(0, 0, odom[-1][-1]),
                          rospy.Time.now(),
@@ -155,7 +155,7 @@ if __name__ == '__main__':
     bridge = CvBridge()
     br = tf.TransformBroadcaster()
 
-    env = HuskyNavigateEnv(config=gibson_config_file_path, gpu_idx = 0)
+    env = HuskyNavigateEnv(config=gibson_config_file_path)
     print(env.config)
 
     obs = env.reset()
