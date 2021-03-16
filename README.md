@@ -9,7 +9,7 @@ To use this package, please follow the instruction below:
 
 * Install ros (robot operating system) on your system
 
-* Install all Turtlebot 2 packages. To do this, clone in your catkin workspace the following repositories and the run ```catkin_make```
+* Install all Turtlebot 2 and Husky packages. To do this, clone in your catkin workspace the following repositories and the run ```catkin_make```
 
   ```bash
   git clone https://github.com/turtlebot/turtlebot.git
@@ -17,6 +17,7 @@ To use this package, please follow the instruction below:
   git clone https://github.com/turtlebot/turtlebot_msgs.git
   git clone https://github.com/yujinrobot/kobuki.git
   git clone https://github.com/yujinrobot/kobuki_msgs.git
+  git clone https://github.com/husky/husky.git
   ```
   
 * Download and install Gibson environment from source, following the instruction reported [here](https://github.com/StanfordVL/GibsonEnv). Remember to install Gibson using python 2.7, which is the only one compatible with ros melodic
@@ -28,7 +29,7 @@ To use this package, please follow the instruction below:
   
   **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository
   
-* The simulated Turtlebot model has been modified, increasing the Kinect height. To do this inside Gibson, open the file ```GibsonEnv/gibson/assets/models/turtlebot/turtlebot.urdf``` and search the following tags.
+* The simulated Turtlebot 2 model has been modified, increasing the Kinect height. To do this inside Gibson, open the file ```GibsonEnv/gibson/assets/models/turtlebot/turtlebot.urdf``` and search the following tags.
 
   ```xml
   <joint name="camera_rgb_joint" type="fixed">    
@@ -38,7 +39,22 @@ To use this package, please follow the instruction below:
   </joint>
   ```
 
+* Also the Husky model has been modified. To increase the camera height, you have to open the Hisky's urdf file ```GibsonEnv/gibson/assets/models/husky.urdf```, find the following lines
+
+  ```xml
+  <joint name="eyes_joint" type="fixed">
+      <!-- camera is located at front bar -->
+      <!-- Default orientation (rpy="0 0 0"): looking at -z with y as up -->
+      <origin rpy="1.57 0 -1.57" xyz="0.4 0 0.149"/>
+      <parent link="base_link"/>
+      <child link="eyes"/>
+  </joint>
+  ```
+
+  and change 0.149 to 1.00.
+
 * Download the datasets containing the environments to virtualize using Gibson. You can find all links and instructions [here](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md).
+
 * Finally, clone this repo in your catkin workspace and run ```catkin_make```.
 
 ## How it works
