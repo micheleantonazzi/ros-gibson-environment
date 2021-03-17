@@ -4,8 +4,8 @@ maxUrange: 4.0
 maxRange: 12.0
 
 linearUpdate: 0.3
-angularUpdate: 0.5
-temporalUpdate: 2.0
+angularUpdate: 0.4
+temporalUpdate: -1
 resampleThreshold: 0.5
 
 xmin: -1.0
