@@ -110,6 +110,7 @@ if __name__ == '__main__':
 
     # Get environment data from starting_positions file
     position = starting_positions[environment]['position']
+    position[2] += 0.13
     orientation = starting_positions[environment]['orientation']
     dataset = starting_positions[environment]['dataset']
     has_semantics = starting_positions[environment]['semantics']
