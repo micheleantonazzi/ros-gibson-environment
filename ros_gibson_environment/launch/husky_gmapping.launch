@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+    <param name="base_frame" value="base_footprint"/>
+    <param name="map_frame" value="map" />
+    <param name="odom_frame" value="odom"/>
+
+    <rosparam file="$(find ros_gibson_environment)/params/husky/gmapping_params.yaml" command="load"/>
+  </node>
+</launch>
