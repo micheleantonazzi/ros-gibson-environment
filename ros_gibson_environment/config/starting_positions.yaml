@@ -6354,7 +6354,7 @@ house1:
   position:
   - 0.0
   - 0.0
-  - 0.0
+  - 0.2
   semantics: true
 house10:
   dataset: matterport

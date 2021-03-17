@@ -58,6 +58,14 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <!-- Wheel Properties -->
   <!-- Base link is on the ground under the robot -->
 
+  <link name="base_footprint"/>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <origin xyz="0 0 0.13" rpy="0 0 0" />
+    <parent link="base_footprint" />
+    <child link="base_link" />
+  </joint>
+
   <link name="base_link">
 
 
@@ -136,7 +144,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <joint name="eyes_joint" type="fixed">
     <!-- camera is located at front bar -->
     <!-- Default orientation (rpy="0 0 0"): looking at -z with y as up -->
-    <origin rpy="-1.57 0 -1.57" xyz="0.4 0 1.00"/>
+    <origin rpy="-1.57 0 -1.57" xyz="0.4 0 0.6"/>
     <parent link="base_link"/>
     <child link="eyes"/>
   </joint>

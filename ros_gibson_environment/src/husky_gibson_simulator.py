@@ -67,15 +67,16 @@ def callback_closure(resolution, has_semantics):
 
         # Odometry
         odom = np.array(env.robot.body_xyz) - np.array(env.config["initial_pos"]), np.array(env.robot.body_rpy)
+
         br.sendTransform((odom[0][0], odom[0][1], 0),
                          tf.transformations.quaternion_from_euler(0, 0, odom[-1][-1]),
                          rospy.Time.now(),
-                         'base_link',
+                         'base_footprint',
                          'odom')
         odom_msg = Odometry()
         odom_msg.header.stamp = rospy.Time.now()
         odom_msg.header.frame_id = 'odom'
-        odom_msg.child_frame_id = 'base_link'
+        odom_msg.child_frame_id = 'base_footprint'
 
         odom_msg.pose.pose.position.x = odom[0][0]
         odom_msg.pose.pose.position.y = odom[0][1]
@@ -163,7 +164,7 @@ if __name__ == '__main__':
     br.sendTransform((0, 0, 0),
                      tf.transformations.quaternion_from_euler(0, 0, 0),
                      rospy.Time.now(),
-                     'base_link',
+                     'base_footprint',
                      'odom')
 
     rospy.Subscriber('/husky_velocity_controller/cmd_vel', Twist, callback)
