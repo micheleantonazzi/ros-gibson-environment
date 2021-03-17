@@ -7247,3 +7247,70 @@ house9:
   - 0.0
   - 0.0
   semantics: true
+space2:
+  dataset: stanford
+  orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+  position:
+    - 0.0
+    - 0.0
+    - 0.0
+  semantics: false
+space3:
+  dataset: stanford
+  orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+  position:
+    - 0.0
+    - 0.0
+    - 0.0
+  semantics: false
+space4:
+  dataset: stanford
+  orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+  position:
+    - 0.0
+    - 0.0
+    - 0.0
+  semantics: false
+space5:
+  dataset: stanford
+  orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+  position:
+    - 0.0
+    - 0.0
+    - 0.0
+  semantics: false
+space6:
+  dataset: stanford
+  orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+  position:
+    - 0.0
+    - 0.0
+    - 0.0
+  semantics: false
+space7:
+  dataset: stanford
+  orientation:
+    - 0.0
+    - 0.0
+    - 4.71
+  position:
+    - -14.3
+    - 5.0
+    - 0.0
+  semantics: true
+
