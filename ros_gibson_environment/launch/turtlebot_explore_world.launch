@@ -1,6 +1,6 @@
 <launch>
-    <include file="simulator.launch" />
-    <include file="depthimage_to_laserscan.launch" />
-    <include file="gmapping.launch" />
-    <include file="move_base.launch" />
+    <include file="turtlebot_gibson_simulator.launch" />
+    <include file="turtlebot_depthimage_to_laserscan.launch" />
+    <include file="turtlebot_gmapping.launch" />
+    <include file="turtlebot_move_base.launch" />
 </launch>

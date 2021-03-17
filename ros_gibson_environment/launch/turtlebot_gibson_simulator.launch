@@ -28,7 +28,7 @@
     <node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager"/>
     <node pkg="nodelet" type="nodelet" name="cmd_vel_mux"
           args="load yocs_cmd_vel_mux/CmdVelMuxNodelet mobile_base_nodelet_manager">
-        <param name="yaml_cfg_file" value="$(find ros_gibson_environment)/params/mux_params.yaml" />
+        <param name="yaml_cfg_file" value="$(find ros_gibson_environment)/params/turtlebot/mux_params.yaml" />
         <remap from="cmd_vel_mux/output" to="mobile_base/commands/velocity"/>
     </node>
 </launch>
