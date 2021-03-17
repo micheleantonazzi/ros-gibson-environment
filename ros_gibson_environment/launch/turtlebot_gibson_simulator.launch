@@ -11,7 +11,7 @@
     </node>
 
     <node name="ros_gibson_environment_simulator" pkg="ros_gibson_environment" type="turtlebot_gibson_simulator.py" output="screen">
-        <param name="environment" value="Allensville" />
+        <param name="environment" value="space7" />
         <param name="resolution" value="256" />
     </node>
 
