@@ -10,8 +10,17 @@
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     </node>
 
+    <!--
+        semantic_visualization_mode parameter possible values:
+            - distinctive: the environment assigns a random distinctive color to each semantic instance.
+                            This mode renders intuitive colorful semantic map.
+            - label_to_rgb: the environment assigns a semantic label to each object instance and then converts each label in an rgb color.
+                            the rendered frame can be directly consumed as the semantically labelled pixel maps
+                            but the frame itself usually looks dark to human eyes.
+     -->
     <node name="ros_gibson_environment_simulator" pkg="ros_gibson_environment" type="turtlebot_gibson_simulator.py" output="screen">
-        <param name="environment" value="space7" />
+        <param name="environment" value="house1" />
+        <param name="semantic_visualization_mode" value="label_to_rgb" />
         <param name="resolution" value="256" />
     </node>
 

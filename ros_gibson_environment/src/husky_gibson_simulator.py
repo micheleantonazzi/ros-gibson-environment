@@ -16,6 +16,8 @@ import tf
 
 MATTERPORT_DATASET = 'matterport'
 STANFORD_DATASET = 'stanford'
+SEMANTIC_DISTINCTIVE = 'distinctive'
+SEMANTIC_LABEL_TO_RGB = 'label_to_rgb'
 
 def callback(data):
     global front_left, front_right, rear_left, rear_right
@@ -96,6 +98,8 @@ if __name__ == '__main__':
     # Get parameters
     environment = rospy.get_param(rospy.get_name() + '/environment', default='house1')
 
+    semantic_visualization_mode = rospy.get_param(rospy.get_name() + '/semantic_visualization_mode', default=SEMANTIC_LABEL_TO_RGB)
+
     resolution = int(rospy.get_param(rospy.get_name() + '/resolution', default=256))
 
     # Load gibson config parameter
@@ -129,10 +133,16 @@ if __name__ == '__main__':
         gibson_config['ui_num'] = 3
         if dataset == STANFORD_DATASET:
             gibson_config['semantic_source'] = 1
-            gibson_config['semantic_color'] = 3
+            if semantic_visualization_mode == SEMANTIC_DISTINCTIVE:
+                gibson_config['semantic_color'] = 1
+            elif semantic_visualization_mode == SEMANTIC_LABEL_TO_RGB:
+                gibson_config['semantic_color'] = 3
         elif dataset == MATTERPORT_DATASET:
             gibson_config['semantic_source'] = 2
-            gibson_config['semantic_color'] = 2
+            if semantic_visualization_mode == SEMANTIC_DISTINCTIVE:
+                gibson_config['semantic_color'] = 1
+            elif semantic_visualization_mode == SEMANTIC_LABEL_TO_RGB:
+                gibson_config['semantic_color'] = 2
     else:
         gibson_config['output'] = ['nonviz_sensor', 'rgb_filled', 'depth']
         gibson_config['ui_components'] = ['RGB_FILLED', 'DEPTH']
