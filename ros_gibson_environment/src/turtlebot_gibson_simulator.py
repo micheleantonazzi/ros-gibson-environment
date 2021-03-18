@@ -126,7 +126,7 @@ if __name__ == '__main__':
         if dataset == STANFORD_DATASET:
             gibson_config['semantic_source'] = 1
             gibson_config['semantic_color'] = 3
-        elif dataset == STANFORD_DATASET:
+        elif dataset == MATTERPORT_DATASET:
             gibson_config['semantic_source'] = 2
             gibson_config['semantic_color'] = 2
     else:
