@@ -1,6 +1,8 @@
 <launch>
+    <arg name="environment" default="house1" />
+
     <include file="$(find ros_gibson_environment)/launch/turtlebot_gibson_simulator.launch">
-        <arg name="environment" value="house1" />
+        <arg name="environment" value="$(arg environment)" />
     </include>
     <include file="$(find ros_gibson_environment)/launch/turtlebot_depthimage_to_laserscan.launch" />
     <include file="$(find ros_gibson_environment)/launch/turtlebot_gmapping.launch" />
