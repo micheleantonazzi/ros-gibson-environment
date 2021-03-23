@@ -94,7 +94,7 @@ if __name__ == '__main__':
     rospy.init_node('ros_gibson_environment_simulator')
 
     # Get parameters
-    environment = rospy.get_param(rospy.get_name() + '/environment', default='house1').split('_')[0]
+    environment = rospy.get_param(rospy.get_name() + '/environment', default='house1')
 
     semantic_visualization_mode = rospy.get_param(rospy.get_name() + '/semantic_visualization_mode', default=SEMANTIC_LABEL_TO_RGB)
 
@@ -117,7 +117,8 @@ if __name__ == '__main__':
     has_semantics = starting_positions[environment]['semantics']
 
     # Create gibson config file based of dataset type and its environment
-    gibson_config['model_id'] = environment
+    gibson_config['envname'] = 'TurtlebotNavigateEnv'
+    gibson_config['model_id'] = environment.split('_')[0]
     gibson_config['initial_pos'] = position
     gibson_config['initial_orn'] = orientation
     gibson_config['resolution'] = resolution
