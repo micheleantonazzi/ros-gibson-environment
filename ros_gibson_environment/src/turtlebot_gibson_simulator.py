@@ -94,7 +94,7 @@ if __name__ == '__main__':
     rospy.init_node('ros_gibson_environment_simulator')
 
     # Get parameters
-    environment = rospy.get_param(rospy.get_name() + '/environment', default='house1')
+    environment = rospy.get_param(rospy.get_name() + '/environment', default='house1').split('_')[0]
 
     semantic_visualization_mode = rospy.get_param(rospy.get_name() + '/semantic_visualization_mode', default=SEMANTIC_LABEL_TO_RGB)
 
