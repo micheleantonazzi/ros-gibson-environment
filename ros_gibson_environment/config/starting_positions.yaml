@@ -6594,9 +6594,20 @@ house3:
   - 0.0
   - 0.0
   position:
+  - 1.0
+  - -0.8
   - 0.0
-  - 0.0
-  - 0.0
+  semantics: true
+house3_1:
+  dataset: matterport
+  orientation:
+    - 0.0
+    - 0.0
+    - 0.0
+  position:
+    - -15.5
+    - 8.7
+    - 0.3
   semantics: true
 house30:
   dataset: matterport
