@@ -1,6 +1,8 @@
 <launch>
-    <include file="turtlebot_gibson_simulator.launch" />
-    <include file="turtlebot_depthimage_to_laserscan.launch" />
-    <include file="turtlebot_gmapping.launch" />
-    <include file="turtlebot_move_base.launch" />
+    <include file="$(find ros_gibson_environment)/launch/turtlebot_gibson_simulator.launch">
+        <arg name="environment" value="house1" />
+    </include>
+    <include file="$(find ros_gibson_environment)/launch/turtlebot_depthimage_to_laserscan.launch" />
+    <include file="$(find ros_gibson_environment)/launch/turtlebot_gmapping.launch" />
+    <include file="$(find ros_gibson_environment)/launch/turtlebot_move_base.launch" />
 </launch>

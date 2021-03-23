@@ -1,6 +1,7 @@
 <launch>
 
     <!-- important generally, but specifically utilised by the current app manager -->
+    <arg name="environment" default="house1" />
     <param name="robot/name" value="$(optenv ROBOT turtlebot)"/>
     <param name="robot/type" value="turtlebot"/>
 
@@ -19,7 +20,7 @@
                             but the frame itself usually looks dark to human eyes.
      -->
     <node name="ros_gibson_environment_simulator" pkg="ros_gibson_environment" type="turtlebot_gibson_simulator.py" output="screen">
-        <param name="environment" value="house1" />
+        <param name="environment" value="$(arg environment)" />
         <param name="semantic_visualization_mode" value="label_to_rgb" />
         <param name="resolution" value="256" />
     </node>
