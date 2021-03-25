@@ -6724,11 +6724,11 @@ house4:
   orientation:
   - 0.0
   - 0.0
-  - 0.0
+  - 1.6
   position:
+  - -1.0
   - 0.0
-  - 0.0
-  - 0.0
+  - 0.02
   semantics: true
 house40:
   dataset: matterport
