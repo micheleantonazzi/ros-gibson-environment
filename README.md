@@ -20,14 +20,17 @@ To use this package, please follow the instruction below:
   git clone https://github.com/husky/husky.git
   ```
   
-* Download and install Gibson environment from source, following the instruction reported [here](https://github.com/StanfordVL/GibsonEnv). Remember to install Gibson using python 2.7, which is the only one compatible with ros melodic
-  Before use *ros_gibson_environment*, please install Gibson, building it from source. Gibson has some issues, you can fix them 
+* Download and install Gibson environment from source, following the instruction reported [here](https://github.com/StanfordVL/GibsonEnv). Remember to install Gibson using python 2.7 if u are using ROS Melodic. 
+
+  **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository
+  
+  Gibson has some issues, you can fix them 
   using the following tips:
   * To compile Gibson, go to ```GibsonEnv/gibson/core/channels/CMakeLists.txt``` and add ```add_definitions(-D GLM_ENABLE_EXPERIMENTAL)```
   * Make sure that the version of pygame is 1.9.6
   * To run Gibson install scipy 1.0.0 using the command ```pip install scipy==1.0.0```
   
-  **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository
+  
   
 * The simulated Turtlebot 2 model has been modified, increasing the Kinect height. To do this inside Gibson, open the file ```GibsonEnv/gibson/assets/models/turtlebot/turtlebot.urdf``` and search the following tags.
 
