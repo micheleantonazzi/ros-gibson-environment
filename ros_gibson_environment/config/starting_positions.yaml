@@ -6849,7 +6849,7 @@ house5:
   position:
   - 0.0
   - 0.0
-  - 0.0
+  - 0.03
   semantics: true
 house50:
   dataset: matterport
