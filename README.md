@@ -1,13 +1,13 @@
 # Ros Gibson Environment
 
-This is a ros package to use [Gibson](https://github.com/StanfordVL/GibsonEnv) environment as a simulation tool for robotics applications. 
+This is a ros package to use [Gibson](http://gibsonenv.stanford.edu/) environment as a simulation tool for robotics applications. 
 In particular, this package correctly sets Gibson environment and connect it to ros. In addition, it implements the navigation stacks for Turtlebot 2 and Husky robots.
 
 ## Package configuration
 
-To use this package, please follow the instruction below:
+To use this package, please follow the instructions below:
 
-* Install ros (robot operating system) on your system
+* Install ROS Noetic on your system
 
 * Install all Turtlebot 2 and Husky packages. To do this, clone in your catkin workspace the following repositories and the run ```catkin_make```
 
@@ -20,16 +20,9 @@ To use this package, please follow the instruction below:
   git clone https://github.com/husky/husky.git
   ```
   
-* Download and install Gibson environment from source, following the instruction reported [here](https://github.com/StanfordVL/GibsonEnv). Remember to install Gibson using python 2.7 if u are using ROS Melodic. 
+* Download and install Gibson environment from source. Please use the forked version contained in this ![repository](https://github.com/micheleantonazzi/GibsonEnv). In this updated version of Gibson, other funtionalities are implemented and the most common build issues are fixed.
 
-  **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository
-  
-  Gibson has some issues, you can fix them 
-  using the following tips:
-  * To compile Gibson, go to ```GibsonEnv/gibson/core/channels/CMakeLists.txt``` and add ```add_definitions(-D GLM_ENABLE_EXPERIMENTAL)```
-  * Make sure that the version of pygame is 1.9.6
-  * To run Gibson install scipy 1.0.0 using the command ```pip install scipy==1.0.0```
-  
+  **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository 
   
   
 * The simulated Turtlebot 2 model has been modified, increasing the Kinect height. To do this inside Gibson, open the file ```GibsonEnv/gibson/assets/models/turtlebot/turtlebot.urdf``` and search the following tags.
@@ -56,7 +49,7 @@ To use this package, please follow the instruction below:
 
   and change 0.149 to 1.00.
 
-* Download the datasets containing the environments to virtualize using Gibson. You can find all links and instructions [here](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md).
+* Download the datasets containing the environments to virtualize using Gibson. You can find all links and instructions [here](https://github.com/micheleantonazzi/GibsonEnv/blob/master/gibson/data/README.md).
 
 * Finally, clone this repo in your catkin workspace and run ```catkin_make```.
 
