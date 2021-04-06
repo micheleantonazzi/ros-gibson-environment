@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 import rospy
 from std_msgs.msg import Int64
 
@@ -7,7 +7,7 @@ def talker():
     rospy.init_node('gibson_ros_clock')
     rate = rospy.Rate(1000) # 1000hz
     while not rospy.is_shutdown():
-        pub.publish(rospy.get_time())
+        pub.publish(int(rospy.get_time()))
         rate.sleep()
 
 if __name__ == '__main__':

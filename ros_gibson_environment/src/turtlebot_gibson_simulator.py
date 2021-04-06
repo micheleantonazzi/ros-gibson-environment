@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 import yaml
 
 from gibson.envs.mobile_robots_env import TurtlebotNavigateEnv

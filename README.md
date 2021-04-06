@@ -6,17 +6,33 @@ In particular, this package correctly sets Gibson environment and connect it to 
 ## Package configuration
 
 To use this package, please follow the instructions below:
-
+* Install dependencies:
+  ```bash
+  sudo apt-get install libusb-dev
+  sudo apt install libftdi-dev
+  ```
 * Install ROS Noetic on your system
+
+* Install ROS packages:
+  ```bash
+  sudo apt install ros-noetic-move-base ros-noetic-dwa-local-planner ros-noetic-gmapping ros-noetic-ecl-* ros-noetic-joy ros-noetic-nodelet* ros-noetic-pointcloud-to-laserscan
+  ```
 
 * Install all Turtlebot 2 and Husky packages. To do this, clone in your catkin workspace the following repositories and the run ```catkin_make```
 
   ```bash
-  git clone https://github.com/turtlebot/turtlebot.git
-  git clone https://github.com/turtlebot/turtlebot_apps.git
-  git clone https://github.com/turtlebot/turtlebot_msgs.git
-  git clone https://github.com/yujinrobot/kobuki.git
-  git clone https://github.com/yujinrobot/kobuki_msgs.git
+  git clone https://github.com/machinekoder/ar_track_alvar.git &&
+  cd ar_track_alvar &&
+  git checkout noetic-devel &&
+  cd .. &&
+  git clone https://github.com/yujinrobot/yocs_msgs.git &&
+  git clone https://github.com/yujinrobot/yujin_ocs.git &&
+  git clone https://github.com/turtlebot/turtlebot.git &&
+  git clone https://github.com/turtlebot/turtlebot_apps.git &&
+  git clone https://github.com/turtlebot/turtlebot_msgs.git &&
+  git clone https://github.com/yujinrobot/kobuki.git &&
+  git clone https://github.com/yujinrobot/kobuki_msgs.git &&
+  git clone https://github.com/yujinrobot/kobuki_core.git &&
   git clone https://github.com/husky/husky.git
   ```
   
