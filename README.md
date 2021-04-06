@@ -20,7 +20,7 @@ To use this package, please follow the instructions below:
   git clone https://github.com/husky/husky.git
   ```
   
-* Download and install Gibson environment from source. Please use the forked version contained in this ![repository](https://github.com/micheleantonazzi/GibsonEnv). In this updated version of Gibson, other funtionalities are implemented and the most common build issues are fixed.
+* Download and install Gibson environment from source. Please use the forked version contained in this [repository](https://github.com/micheleantonazzi/GibsonEnv). In this updated version of Gibson, other funtionalities are implemented and the most common build issues are fixed.
 
   **NB:** it is not necessary to configure the *gibson-ros* module contained in Gibson's repository 
   
